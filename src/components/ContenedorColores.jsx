@@ -1,10 +1,14 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import ItemColores from './ItemColores';
 
-const ContenedorColores = () => {
+const ContenedorColores = ({colores}) => {
     return (
-        <div>
-            
-        </div>
+        <Container>
+            <Row>
+                {colores.map((color,id) => <ItemColores key={id} color={color}/>)}
+            </Row>
+        </Container>
     );
 };
 
