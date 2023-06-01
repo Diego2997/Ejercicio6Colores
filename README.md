@@ -1,5 +1,9 @@
 ## Ejercicio de React con Vite
 
+## DEMO
+
+1. [Proyecto](https://ejercicioreact6.netlify.app/)
+
 Este es un ejercicio que utiliza componentes, pasaje de props y un formulario para crear distintas cards con el color que se tipea en el formulario
 
 - React: Una biblioteca de JavaScript para construir interfaces de usuario interactivas.
